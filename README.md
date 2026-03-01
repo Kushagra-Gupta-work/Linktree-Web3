@@ -198,7 +198,3 @@ async function pinJson(pinataApiKey, pinataSecret, jsonObject) {
 <hr />
 
 <!-- FOOTER -->
-<p>
-  <strong>Notes:</strong> Replace <code>assets/banner.png</code> with an actual image file in <code>public/</code> or <code>assets/</code> to display a header banner.
-  Add screenshots inside <code>public/screenshots/</code> and reference them with <code>&lt;img src="public/screenshots/example.png" /&gt;</code>.
-</p>
