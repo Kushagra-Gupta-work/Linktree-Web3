@@ -159,8 +159,8 @@ async function pinJson(pinataApiKey, pinataSecret, jsonObject) {
 <!-- DEPLOYMENT -->
 <h2>DEPLOYMENT</h2>
 <p>
-  Recommended hosts: Vercel or Netlify. When deploying, add the same environment variables in the platform's settings.
-  For production, ensure critical content is pinned to at least one stable pinning service or multiple services for redundancy.
+  Make sure to add env variables in platform's (vercel or netlify) settings to link correctly.
+  
 </p>
 
 <hr />
@@ -181,19 +181,6 @@ async function pinJson(pinataApiKey, pinataSecret, jsonObject) {
   <summary><strong>Is the profile reversible or editable after pinning?</strong></summary>
   <p>IPFS CIDs are immutable. To update a profile, pin a new JSON and distribute the new CID (the dashboard manages this process and can link a wallet to the latest CID).</p>
 </details>
-
-<hr />
-
-<!-- CONTRIBUTING & LICENSE -->
-<h2>CONTRIBUTING</h2>
-<ol>
-  <li>Fork the repository.</li>
-  <li>Create a branch for your feature: <code>git checkout -b feature/your-feature</code>.</li>
-  <li>Commit and push your changes, then open a pull request.</li>
-</ol>
-
-<h2>LICENSE</h2>
-<p>Open source. See the LICENSE file in the repository for details.</p>
 
 <hr />
 
